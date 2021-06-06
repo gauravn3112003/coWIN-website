@@ -1,0 +1,561 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+
+/* header section  */
+
+header {
+    background-color: rgb(36, 36, 121);
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .top {
+    color: white;
+    display: flex;
+}
+
+header .top .logo {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .top .logo img {
+    height: 30px;
+}
+
+header .top .text {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list ul {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.list ul li {
+    margin-left: 10px;
+    font-size: 10px;
+    list-style: none;
+}
+
+.list ul li i {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* section part */
+
+section .all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 40px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid grey;
+}
+
+section .logo img {
+    height: 50px;
+}
+
+section .btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    background-color: rgb(34, 209, 11);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* PM covid banner */
+
+.banner img {
+    width: 100%;
+}
+
+
+/* helpline */
+
+.helpline {
+    margin: 30px 0px;
+}
+
+.helpline h3 {
+    text-align: center;
+}
+
+.helpline .help {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.helpline .help .slot {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+.helpline .help .slot .icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.helpline .help .slot .icon i {
+    font-size: 30px;
+}
+
+.helpline .help .slot .text .what {
+    font-weight: 900;
+}
+
+.helpline .help .slot .text .no {
+    color: blueviolet;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+
+/* vaccination search  */
+
+.search .heading {
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.search .list {
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .list a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin: 5px;
+    transition: 0.2s all ease-in;
+}
+
+.search .list a:hover {
+    color: white;
+    background-color: blue;
+}
+
+.search .input {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.search .input #text {
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    border-bottom: 1px solid rgb(138, 121, 121);
+}
+
+
+/* map */
+
+.map .img {
+    width: 80%;
+    margin: auto;
+}
+
+.map .img img {
+    width: 100%;
+    margin: auto;
+}
+
+.map .notes {
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+}
+
+
+/* four icons */
+
+.images {
+    background-color: rgb(235, 255, 13);
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.images h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.images .all {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.images .all .slot {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.images .all .slot .icons img {
+    width: 130px;
+}
+
+.images .all .slot .text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.images .all .slot .text h4 {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.images .btn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.images .btn .btn1 {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images .btn .btn1 a {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(2, 2, 36);
+    font-weight: 800;
+    transition: 0.5s all ease;
+    text-align: center;
+}
+
+.images .btn .btn1 a:hover {
+    background-color: rgb(244, 244, 244);
+    color: rgb(11, 3, 40);
+}
+
+
+/* report info */
+
+.report {
+    padding: 30px 0;
+    padding-top: 40px;
+    background-color: rgb(232, 228, 228);
+}
+
+.report .port {
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.port .slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid grey;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+.port .slot .icon {
+    display: flex;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.port .slot .icon i {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.port .slot .text .no {
+    color: rgb(32, 6, 56);
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.port .slot .text .count {
+    color: rgb(183, 152, 213);
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.port .slot .text .dose {
+    font-weight: 800;
+    text-align: center;
+    font-size: 13px;
+}
+
+#one .icon {
+    background-color: rgb(14, 13, 48);
+}
+
+#one .count {
+    color: rgb(14, 13, 48);
+}
+
+#two .icon {
+    background-color: rgb(232, 52, 12);
+}
+
+#two .count {
+    color: rgb(232, 52, 12);
+}
+
+#three .icon {
+    background-color: rgb(49, 46, 126);
+}
+
+#three .count {
+    color: rgb(49, 46, 126);
+}
+
+#four .icon {
+    background-color: rgb(170, 169, 201);
+}
+
+#four .count {
+    color: rgb(170, 169, 201);
+}
+
+#five .icon {
+    background-color: rgb(31, 80, 24);
+}
+
+#five .count {
+    color: rgb(31, 80, 24);
+}
+
+#six .icon {
+    background-color: rgb(121, 169, 32);
+}
+
+#six .count {
+    color: rgb(121, 169, 32);
+}
+
+.port #six {
+    border-right: none;
+}
+
+.report .full {
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 40px;
+}
+
+.report .full a {
+    border: 1px solid rgb(226, 226, 226);
+    padding: 10px 100px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: navy;
+    transition: 0.5 all ease-in;
+}
+
+.report .full a:hover {
+    color: white;
+    background-color: navy;
+}
+
+
+/* our partners */
+
+.partner .text {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.partner .images {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.partner .images .image {
+    width: auto;
+    height: auto;
+}
+
+.partner .images .image img {
+    width: 100px;
+    margin: 10px 20px;
+}
+
+
+/* Responsiveness code */
+
+@media only screen and (max-width:1000px) {
+    .list ul li a {
+        font-size: 10px;
+    }
+    header .top .text {
+        font-size: 15px;
+    }
+    header .top .logo img {
+        height: 20px;
+    }
+    .list ul li i {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .helpline .help .slot .icon {
+        width: 25px;
+    }
+    .helpline .help .slot .icon i {
+        font-size: 15px;
+    }
+    .helpline .help .slot .text .what {
+        font-size: 15px;
+    }
+    .helpline .help .slot .text .no {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    section .logo img {
+        height: 30px;
+    }
+    section .btn a {
+        font-size: 15px;
+        padding: 5px;
+        margin: 20px 0;
+    }
+    .partner .images {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .list ul {
+        margin: 5px;
+        padding: 5px;
+    }
+    header .top .text {
+        font-size: 10px;
+    }
+    .list ul li {
+        margin-left: 5px;
+        font-size: 5px;
+    }
+    .list ul li i {
+        padding: 2px;
+        font-size: 7px;
+    }
+    .list ul li a {
+        font-size: 8px;
+    }
+    section .logo img {
+        height: 20px;
+    }
+    section .btn a {
+        font-size: 10px;
+        padding: 5px;
+        margin: 30px 0;
+    }
+    .report .full a {
+        padding: 5px 50px;
+    }
+    .helpline .help {
+        flex-direction: column;
+    }
+    .helpline .help .slot .icon {
+        width: 25px;
+    }
+    .helpline .help .slot .icon i {
+        font-size: 20px;
+    }
+    .helpline .help .slot .text .what {
+        font-size: 20px;
+    }
+    .helpline .help .slot .text .no {
+        font-size: 15px;
+    }
+    .report .port {
+        flex-direction: column;
+    }
+    .port .slot {
+        border: none;
+    }
+}
