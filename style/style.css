@@ -315,11 +315,11 @@ section .btn a {
 
 .port .slot {
     display: flex;
-    justify-content: center;
     align-items: center;
-    border-right: 2px solid grey;
     padding: 0 20px;
-    margin: 10px;
+    margin: 40px 10px;
+    width: 200px;
+    height: 20px;
 }
 
 .port .slot .icon {
@@ -404,10 +404,6 @@ section .btn a {
 
 #six .count {
     color: rgb(121, 169, 32);
-}
-
-.port #six {
-    border-right: none;
 }
 
 .report .full {
